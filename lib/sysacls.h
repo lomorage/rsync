@@ -96,6 +96,7 @@
 
 #elif defined HAVE_UNIXWARE_ACLS || defined HAVE_SOLARIS_ACLS /*-------------*/
 
+#include <cygwin/acl.h>
 /* Donated by Michael Davidson <md@sco.COM> for UnixWare / OpenUNIX.
  * Modified by Toomas Soome <tsoome@ut.ee> for Solaris.  */
 
